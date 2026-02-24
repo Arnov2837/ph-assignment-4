@@ -27,7 +27,9 @@
     <section class="">
       <h1 class="text-lg font-bold">Job Application Tracker</h1>
       <br />
-      <div class="flex p- justify-between">
+      <div
+        class="grid grid-cols-3 gap-2 md:grid-cols-3 sm:grid-cols-2 justify-between"
+      >
         <div
           id="total"
           class="base-content border rounded-[10px] text-left py-1 pr-25 pl-4 shadow-md"
@@ -68,10 +70,21 @@
       </div>
     </section>
     <section class="all-cart grid gap-3 pt-6">
+      <div
+        id="no-jobs"
+        class="hidden flex-col items-center justify-center py-10 text-center"
+      >
+        <img src="jobs.png" alt="No jobs" class="w-40 mx-auto mb-4" />
+        <h3 class="text-xl font-bold">No jobs available</h3>
+        <p class="text-gray-500">You don't have any jobs in this category.</p>
+      </div>
+
       <div class="cart1 shadow-md bg-white p-3 rounded-md">
         <div class="flex justify-between">
           <h4 class="font-bold">Mobile First Corp</h4>
-          <button><i class="fa-solid fa-trash"></i></button>
+          <button class="cursor-pointer hover:text-red-500">
+            <i class="fa-solid fa-trash"></i>
+          </button>
         </div>
         <p class="text-gray-500">React Native Developer</p>
 
@@ -94,7 +107,9 @@
       <div class="cart2 shadow-md bg-white pt-4 p-3 rounded-md">
         <div class="flex justify-between">
           <h4 class="font-bold">WebFlow Agency</h4>
-          <button><i class="fa-solid fa-trash"></i></button>
+          <button class="cursor-pointer hover:text-red-500">
+            <i class="fa-solid fa-trash"></i>
+          </button>
         </div>
         <p class="text-gray-500">Web Designer & Developer</p>
 
@@ -117,7 +132,9 @@
       <div class="cart3 shadow-md pt-4 bg-white p-3 rounded-md">
         <div class="flex justify-between">
           <h4 class="font-bold">DataViz Solutions</h4>
-          <button><i class="fa-solid fa-trash"></i></button>
+          <button class="cursor-pointer hover:text-red-500">
+            <i class="fa-solid fa-trash"></i>
+          </button>
         </div>
         <p class="text-gray-500">Data Visualization Specialist</p>
 
@@ -140,7 +157,9 @@
       <div class="cart4 shadow-md pt-4 bg-white p-3 rounded-md">
         <div class="flex justify-between">
           <h4 class="font-bold">CloudFirst Inc</h4>
-          <button><i class="fa-solid fa-trash"></i></button>
+          <button class="cursor-pointer hover:text-red-500">
+            <i class="fa-solid fa-trash"></i>
+          </button>
         </div>
         <p class="text-gray-500">Backend Developer</p>
 
@@ -163,7 +182,9 @@
       <div class="cart5 shadow-md pt-4 bg-white p-3 rounded-md">
         <div class="flex justify-between">
           <h4 class="font-bold">Innovation Labs</h4>
-          <button><i class="fa-solid fa-trash"></i></button>
+          <button class="cursor-pointer hover:text-red-500">
+            <i class="fa-solid fa-trash"></i>
+          </button>
         </div>
         <p class="text-gray-500">UI/UX Engineer</p>
 
@@ -187,7 +208,9 @@
       <div class="cart6 shadow-md pt-4 bg-white p-3 rounded-md">
         <div class="flex justify-between">
           <h4 class="font-bold">MegaCorp Solutions</h4>
-          <button><i class="fa-solid fa-trash"></i></button>
+          <button class="cursor-pointer hover:text-red-500">
+            <i class="fa-solid fa-trash"></i>
+          </button>
         </div>
         <p class="text-gray-500">JavaScript Developer</p>
 
@@ -211,7 +234,9 @@
       <div class="cart7 shadow-md pt-4 bg-white p-3 rounded-md">
         <div class="flex justify-between">
           <h4 class="font-bold">StartupXYZ</h4>
-          <button><i class="fa-solid fa-trash"></i></button>
+          <button class="cursor-pointer hover:text-red-500">
+            <i class="fa-solid fa-trash"></i>
+          </button>
         </div>
         <p class="text-gray-500">Full Stack Engineer</p>
 
@@ -235,7 +260,9 @@
       <div class="cart8 shadow-md pt-4 bg-white p-3 rounded-md">
         <div class="flex justify-between">
           <h4 class="font-bold">TechCorp Industries</h4>
-          <button><i class="fa-solid fa-trash"></i></button>
+          <button class="cursor-pointer hover:text-red-500">
+            <i class="fa-solid fa-trash"></i>
+          </button>
         </div>
         <p class="text-gray-500">Senior Frontend Developer</p>
 
